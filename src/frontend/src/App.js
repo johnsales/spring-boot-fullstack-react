@@ -4,9 +4,9 @@ import {
     Layout,
     Menu,
     Breadcrumb,
-    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm,Radio
+    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio, Image
 } from 'antd';
-import {
+import {   
     DesktopOutlined,
     PieChartOutlined,
     FileOutlined,
@@ -215,7 +215,12 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image
+                    width={75}
+                    src="https://user-images.githubusercontent.com/6455880/132115336-bad4653b-ff0d-426e-9b6b-681e261fefb7.png"
+                />
+            </Footer>
         </Layout>
     </Layout>
 }
