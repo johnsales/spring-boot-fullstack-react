@@ -4,7 +4,7 @@ import {
     Layout,
     Menu,
     Breadcrumb,
-    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio, Image
+    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio, Image, Divider
 } from 'antd';
 import {   
     DesktopOutlined,
@@ -221,6 +221,11 @@ function App() {
                     src="https://user-images.githubusercontent.com/6455880/132115336-bad4653b-ff0d-426e-9b6b-681e261fefb7.png"
                 />
             </Footer>
+            <Divider>
+                <a target="_blank" href="https://github.com/johnsales/spring-boot-fullstack-react.git">
+                    Click here to access the github repository
+                </a>
+            </Divider>
         </Layout>
     </Layout>
 }
