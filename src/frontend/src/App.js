@@ -222,7 +222,9 @@ function App() {
                 />
             </Footer>
             <Divider>
-                <a target="_blank" rel="noreferrer" ="https://github.com/johnsales/spring-boot-fullstack-react.git">
+                <a rel="noopener noreferrer"
+                   target="_blank"
+                   href="https://github.com/johnsales/spring-boot-fullstack-react.git">
                     Click here to access the github repository
                 </a>
             </Divider>
