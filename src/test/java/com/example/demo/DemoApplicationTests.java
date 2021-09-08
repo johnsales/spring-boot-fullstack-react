@@ -8,7 +8,7 @@ class DemoApplicationTests {
 
 	@Test
 	void contextLoads() throws Exception {
-		throw new Exception("opssssssssss");
+		//throw new Exception("opssssssssss");
 	}
 
 }
