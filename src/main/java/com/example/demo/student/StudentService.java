@@ -8,6 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @AllArgsConstructor
 @Service
@@ -18,6 +19,9 @@ public class StudentService {
 
     public Page<Student> getAllStudents(Pageable pageable) {
         return studentRepository.findAll(pageable);
+    }
+    public List<Student> getAllStudents() {
+        return studentRepository.findAll();
     }
 
     public Student addStudent(Student student) {

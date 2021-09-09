@@ -18,7 +18,7 @@ public class StudentController {
 
     @GetMapping
     public ResponseEntity<?> getAllStudents(Pageable pageable) {
-        return new ResponseEntity<>(studentService.getAllStudents(PageRequest.of(0, 100)), HttpStatus.OK);
+        return new ResponseEntity<>(studentService.getAllStudents(/*PageRequest.of(0, 100)*/), HttpStatus.OK);
     }
 
     @PostMapping
