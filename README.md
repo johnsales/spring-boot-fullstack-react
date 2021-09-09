@@ -24,7 +24,7 @@ This section should list any major frameworks used to built the project.
 ### Architecture
 
 <p>
-    <img src="architecture_diagram.png" alt="Logo" width="500" height="400">
+    <img src="architecture_diagram.png" alt="Logo" width="1100" height="650">
 </p>
 
 ### Publication
